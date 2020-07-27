@@ -1,0 +1,92 @@
+.header{
+	font-family: Lucida Calligraphy;
+	width: 85%;
+
+	background-color: white;
+	text-align: center;
+	margin-left: 90px;
+}
+.wrap .menu ul {
+	float: center;
+	text-align: left;
+	display: flex;
+	padding:10px;
+	background-color: #97b5e6;
+	border-bottom: 4px solid #48576e;
+	color: black;
+	font-size: 14px;
+	margin-left: 90px;
+	width: 84%;		
+	border-radius: 8px;
+	list-style: none;
+	overflow: hidden;
+}
+.wrap .menu ul li {
+	float: center;
+	text-align: left;
+	display: flex;
+	padding:10px;
+	color: black;
+	font-size: 14px;
+	justify-content: space-around;
+	display: block;
+	text-decoration: none;
+}
+.slide{
+	width: 45%;
+	height: 400px;		
+	background-image: url(1.png);
+	background-size: 100% 100%; 
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: slider 9s infinite linear;	
+}
+@keyframes slider{
+	0%{background-image: url(2.png);  }
+	
+	35%{background-image: url(3.jpeg);  }
+
+	75%{background-image: url(4.jpeg);  }
+} 
+
+.pic{
+	float: left;
+	margin-top: 430px;
+
+}
+
+.tombol{
+	margin-left: 570px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.upload{
+	float: left;
+	float: top;
+	text-align: center;
+	height: 35%;
+	width: 100%;
+	
+}
+.about{
+	width: 50%;
+	height: 100px;
+	margin-left: 510px;
+}
+.isitentang{
+	float: left;
+	width: auto;
+	height: auto;
+	padding-top: 170px;
+	margin-left: 90px;
+}
+.footer{
+	float: left;
+	width: 85%;
+	text-align: center;
+	margin-left: 90PX;
+	padding-bottom: 0px;
+	padding-top: 150px;
+}
